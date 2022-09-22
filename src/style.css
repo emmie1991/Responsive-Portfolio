@@ -1,0 +1,103 @@
+body {
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+}
+
+section {
+  height: 500px;
+  background-color: white;
+  border: solid black 1px;
+
+}
+
+.hero {
+  background-color: #1c1d25;
+  height: 100vh; /*as big as viewport - screen */
+  color: white;
+  font-size: 40px;
+  overflow: hidden;
+}
+
+footer {
+  height: 500px;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+
+  /*to space everything in ul, same space*/
+  width: 500px;
+  justify-content: space-around;
+
+  font-size: 30px;
+}
+
+li {
+  text-decoration: none;
+}
+
+.hero-area {
+  display: flex;
+  height: 100%; /*of whatever parent div it's in*/
+  justify-content: space-between; /*center all the content in column*/
+  align-items: center;
+}
+
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+
+h1 {
+  font-size: 90px;
+  margin:0;
+}
+
+p {
+  margin:0;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.button {
+  width: 200px;
+  height: 55px;
+  background-color: coral;
+  border-radius: 40px;
+
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 5px;
+
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #ef744b;
+}
+
+.button:active {
+  background-color: #a9a9a9;
+  color: #808080;
+}
+
+.socials {
+  padding-bottom: 20px;
+}
+
+.logo {
+  height: 80px;
+  margin: 30px;
+}
+
+.social {
+  margin:20px;
+}
