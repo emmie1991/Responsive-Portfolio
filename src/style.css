@@ -15,8 +15,10 @@ section {
 }
 
 footer {
-  height: 500px;
+  padding: 80px;
   background-color: black;
+  color:white;
+  text-align: center;
 }
 
 nav {
@@ -140,8 +142,71 @@ p {
   justify-content: space-around;
 }
 
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
 .project-image {
   width: 250px;
   margin-top: 25px;
   border-radius: 50%;
 }
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #ef744b;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+.hamburger {
+  display:none;
+}
+
+.hamburger:focus {
+  outline: 0; /*get rid of outline*/
+}
+
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+    display:block;
+    border:0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+  }
+  
+  ul {
+    display: none;
+    background-color: #3b3e55;
+    margin:0px;
+  }
+
+  ul.show {
+    display:block;
+  }
+
+  nav {
+    display:flex;
+    flex-direction: column-reverse;
+    background-color: #3b3e55;
+  }
+
+  .logo {
+    display: none;
+  }
+}
+
