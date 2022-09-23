@@ -1,13 +1,10 @@
 body {
-  margin:0;
+  margin: 0;
   font-family: 'Poppins', sans-serif;
 }
 
 section {
-  height: 500px;
   background-color: white;
-  border: solid black 1px;
-
 }
 
 .hero {
@@ -15,7 +12,6 @@ section {
   height: 100vh; /*as big as viewport - screen */
   color: white;
   font-size: 40px;
-  overflow: hidden;
 }
 
 footer {
@@ -31,11 +27,9 @@ nav {
 ul {
   display: flex;
   list-style-type: none;
-
   /*to space everything in ul, same space*/
   width: 500px;
   justify-content: space-around;
-
   font-size: 30px;
 }
 
@@ -60,9 +54,18 @@ h1 {
   margin:0;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 p {
   margin:0;
   font-size: 30px;
+  font-weight: 300;
+}
+
+.subtext {
+  font-size: 15px;
   font-weight: 300;
 }
 
@@ -100,4 +103,45 @@ p {
 
 .social {
   margin:20px;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.sub-section-alternative {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
+.headshot {
+  width: 300px;
+  border-radius: 50%;
+}
+
+.headshot-container {
+  display:flex;
+  align-items: center;
+}
+
+.project-card {
+  width: 300px;
+  height: 500px;
+  box-shadow: 5px 5px 20px rgb(192, 188, 188); /*instead of border*/
+  margin: 10px;
+}
+
+.project-container {
+  display:flex;
+  justify-content: space-around;
+}
+
+.project-image {
+  width: 250px;
+  margin-top: 25px;
+  border-radius: 50%;
 }
